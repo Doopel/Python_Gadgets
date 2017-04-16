@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 from scapy.all import *
+from scapy.layers.dns import DNSRR
 
 dnsRecords = {}
 

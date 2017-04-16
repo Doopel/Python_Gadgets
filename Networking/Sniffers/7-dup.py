@@ -1,5 +1,8 @@
 from scapy.all import *
- 
+from scapy.layers.dot11 import RadioTap, Dot11, SNAP, LLC
+from scapy.layers.inet import IP, UDP
+
+
 def dupRadio(pkt):
 	rPkt=pkt.getlayer(RadioTap)
 	version=rPkt.version

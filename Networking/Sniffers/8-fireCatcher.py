@@ -4,6 +4,7 @@
 import re
 import optparse
 from scapy.all import *
+from scapy.layers.inet import IP
 
 cookieTable = {}
 

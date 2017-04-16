@@ -1,5 +1,6 @@
 import optparse
 from scapy.all import *
+from scapy.layers.inet import IP, TCP
 
 
 def synFlood(src, tgt):

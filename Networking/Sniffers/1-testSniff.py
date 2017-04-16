@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 from scapy.all import *
+from scapy.layers.dns import DNS
+from scapy.layers.dot11 import Dot11Beacon,Dot11ProbeReq,TCP
 
 
 def pktPrint(pkt):

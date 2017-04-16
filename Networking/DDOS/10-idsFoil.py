@@ -1,6 +1,7 @@
 import optparse
 from scapy.all import *
 from random import randint
+from scapy.layers.inet import ICMP, UDP, IP
 
 
 def ddosTest(src, dst, iface, count):
